@@ -24,3 +24,8 @@ zopen_get_version()
   # Rather than hardcoding the version, obtain the version by running the tool/library
   echo "1.0.0"
 }
+
+zopen_install_caveats()
+{
+  echo "Please make sure to run mandb to create or update the manual page index"
+}
