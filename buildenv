@@ -15,7 +15,7 @@ export ZOPEN_INSTALL="zopen_install"
 zopen_install()
 {
   mkdir -p "$ZOPEN_INSTALL_DIR/bin"
-  cp mantastic zothelper "$ZOPEN_INSTALL_DIR/bin/"
+  cp mantastic zothelper zotfile "$ZOPEN_INSTALL_DIR/bin/"
 }
 
 zopen_get_version()
