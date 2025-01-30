@@ -1,3 +1,35 @@
-prompters
+[![Automatic version updates](https://github.com/ZOSOpenTools/promptersport/actions/workflows/bump.yml/badge.svg)](https://github.com/ZOSOpenTools/promptersport/actions/workflows/bump.yml)
 
-A collection, growing, of shell scripts to guide/prompt the use of various shell commands
+# Prompters
+
+Prompter library for creating interactive command line interfaces
+
+# Installation and Usage
+
+Use the zopen package manager ([QuickStart Guide](https://zopen.community/#/Guides/QuickStart)) to install:
+```bash
+zopen install prompters
+```
+
+# Building from Source
+
+1. Clone the repository:
+```bash
+git clone https://github.com/zopencommunity/promptersport.git
+cd promptersport
+```
+2. Build using zopen:
+```bash
+zopen build -vv
+```
+
+See the [zopen porting guide](https://zopen.community/#/Guides/Porting) for more details.
+
+# Documentation
+
+
+# Troubleshooting
+TBD
+
+# Contributing
+Contributions are welcome! Please follow the [zopen contribution guidelines](https://github.com/zopencommunity/meta/blob/main/CONTRIBUTING.md).
